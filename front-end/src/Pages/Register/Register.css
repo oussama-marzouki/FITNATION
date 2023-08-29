@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Poppins:wght@300&display=swap');
+
+.abcd {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.register { 
+    padding: 50px;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height:fit-content ;
+    border-radius: 48px;
+    background-image: url('../../assets/anastas1.png');
+    color: #ffffff;
+    padding-top: 50px;
+    
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 48px;
+    height: 55px;
+    opacity: 0.5;
+    font-size: 18px ;
+    color: black ;  
+}
+select option {
+    background: rgba(100, 100, 100, 0.3);
+    border-radius: 48px;
+}
+.inp{
+    border-radius: 48px;
+    height: 55px;
+    opacity: 0.5;
+    font-size: 18px ;
+    color: black;
+ 
+}
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-family: 'PT Sans Caption';
+}
+input::placeholder { 
+    color : black ;
+    font-size: 18px; 
+    margin-left: 10px;
+}
+.log { 
+    margin-left: 130px;
+    margin-top: 15px;
+}
+.btn {
+    border-radius: 48px;
+    width: 150px ;
+    font-size: 20px;
+    margin-left: 160px;
+    font-weight: bold;
+}
+.btn:hover {
+    color: #FFC800;
+    background-color: white;
+
+}
+.im {
+    width: 200px;
+    height: 28px ;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.reg {
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: underline;
+}
+
+input[type=radio], input[type=checkbox] {
+    transform: scale(2);
+    margin-right: 5px;
+}

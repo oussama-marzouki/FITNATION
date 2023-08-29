@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Poppins:wght@300&display=swap');
+
+
+
+.popup {
+    /* display: none; */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .popup.show {
+    display: block;
+  }
+
+  .roles {
+    margin-top: 40px ;
+    align-items: center;
+  }
+
+.popup p {
+  font-size:50px  ;
+  font-family: 'PT Sans Caption' ;
+
+}
+
+.overlay {
+
+  position:absolute;
+  top:5px;
+  right:5px;
+  width:30px;
+  height:30px;
+  cursor:pointer;
+  border-radius:8px;
+  background-color:#FFC800;
+  clip-path: polygon(0 10%,10% 0,50% 40%,89% 0,100% 10%,60% 50%,100% 90%,90% 100%,50% 60%,10% 100%,0 89%,40% 50%);
+}
+
+.coachpath {
+ background-image: url('../../assets/coach4.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ color: aliceblue;
+font-size: large;
+box-shadow: 5px 5px 5px rgba(8, 0, 0, 0.4)   ;
+}
+.clientpath {
+  background-image: url('../../assets/athlete.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+ font-size: large;
+ box-shadow: 5px 5px 5px rgba(8, 0, 0, 0.4)   ;
+
+}
+.adminpath {
+  background-image: url('../../assets/admin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  font-size: large;
+  box-shadow: 5px 5px 5px rgba(8, 0, 0, 0.4)   ;
+
+}
+.cover1 {
+  background: rgba(0, 0, 0, 0.7) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  font-size: large;
+  box-shadow: 5px 5px 5px rgba(8, 0, 0, 0.4)   ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.cover1:hover { 
+  opacity: 0 ;
+}

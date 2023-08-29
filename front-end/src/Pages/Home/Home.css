@@ -1,0 +1,24 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Poppins:wght@300&display=swap');
+
+
+
+body  { 
+    background: url("../../assets/back.jpg");
+    /* background: #000; */
+  
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+h1 {
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: center;
+}
+.home { 
+  opacity: 0.3 ;
+}
+
+#op {
+  opacity: 0.4 ;
+}
